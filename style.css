@@ -5,6 +5,14 @@ body{
 	font-family: sans-serif;
 }
 
+.gallery{
+	margin-top:-60px;
+	margin-right:auto;
+	margin-left:auto;
+ 	width:500px;
+	height:500px;
+	display:block;
+
 .container{
 	margin: 70px auto 0;
 	display: flex;
