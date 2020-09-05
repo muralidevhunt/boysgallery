@@ -1,0 +1,275 @@
+body{
+	margin: 30px;
+	padding: 0;
+	background: #262626;
+
+}
+.gallery{
+	
+	width:500px;
+	height:500px;
+	margin-top: -90px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#buttons{
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: -20px;
+
+}
+#buttons a{
+	position: relative;
+	user-select: none;
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 0 15px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-size:30px;
+	transition: 0.2s;
+
+}
+#buttons a:hover{
+	color: #255784;
+	background: #2196f3;
+}
+.container{
+	width: 100%;
+	display: grid;
+	grid-auto-flow: dense;
+	grid-template: "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px;
+	grid-gap: 20px;
+}
+.container .box{
+	position: relative;
+	background: #ccc;
+	transition: 0.2s;
+}
+.container .box:hover{
+
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #4eb59b;
+}
+.container .box img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.container .box.a1,
+.container .box.a8,
+.container .box.a12,
+.container .box.a17,
+.container .box.a18,
+.container .box.a29,
+.container .box.a32,
+.container .box.a34,
+.container .box.a35,
+.container .box.a38,
+.container .box.a39,
+.container .box.a41,
+.container .box.a43,
+.container .box.a44,
+.container .box.a47,
+.container .box.a50,
+.container .box.a52,
+.container .box.a53,
+.container .box.a55,
+.container .box.a57,
+.container .box.a58,
+.container .box.a62,
+.container .box.a63,
+.container .box.a64,
+.container .box.a67,
+.container .box.a72,
+.container .box.a73,
+.container .box.a74,
+.container .box.a78,
+.container .box.a91,
+.container .box.a97,
+.container .box.a99,
+.container .box.a100,
+.container .box.a20,
+.container .box.a21,
+.container .box.a22
+{
+	grid-column: span 2;
+}
+@media (max-width: 991px)
+{
+	.container
+	{
+		grid-template: "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px;
+		grid-gap: 5px;
+	}
+}
+@media (max-width: 768px)
+{
+	.container
+	{
+		grid-template: "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px;
+		grid-gap: 5px;
+	}
+}
+
+.copyright{
+	user-select: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 15px;
+	color:#a6a6a6;
+}
