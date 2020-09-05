@@ -6,12 +6,34 @@ body{
 }
 
 .gallery{
-	margin-top:-60px;
-	margin-right:auto;
-	margin-left:auto;
- 	width:500px;
+	
+	width:500px;
 	height:500px;
+	margin-top: -60px;
 	display:block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.memories{
+	user-select: none;
+	padding: 10px;
+	text-align: center;
+}
+.memories a{
+	position: relative;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-size:30px;
+	transition: 0.2s;
+}
+.memories a:hover{
+	color: #255784;
+	background: #2196f3;
+	transition-delay: 0.4s;
 }
 .container{
 	margin: 70px auto 0;
@@ -38,6 +60,7 @@ body{
 }
 .container .box .imgbox
 {
+	user-select: none;
 	position: relative;
 	overflow: hidden;
 }
@@ -50,6 +73,7 @@ body{
 }
 .container .box .info
 {
+	user-select: none;
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -72,75 +96,88 @@ body{
 	color: #fff;
 }
 .container .box .info .content h2{
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0 auto;
 	font-size: 40px;
 	color: #ff0;
+	margin-left: 30px;
 
 }
-#github{
+#details{
+	
+	margin-left: 50px;
+}
+#v{
+	margin-left: 70px;
+}
+#vitesh{
+	margin-left: 50px;
+}
+#venkat{
+	margin-left: 5px;
+}
+#me{
+	margin-left: 40px;
+}
+#vinod{
+	margin-left: 50px;
+}
+#pavan{
+	margin-left: 60px;
+}
+#sunil{
+	margin-left: 60px;
+}
+#snehith{
+	margin-left: 40px;
+}
+#rohith{
+	margin-left: 40px;
+}
+#rajendra{
+	margin-left: 10px;
+}
+#siva{
+	margin-left: 80px;
+}
+#chandu{
+	margin-left: -10px;
+}
+#mohan{
+	margin-left: 5px;
+}
+#vivek{
+	margin-left: 60px;
+}
+#buttons{
 	text-align: center;
 	padding: 10px;
 
 }
-#github a{
+#buttons a{
 	position: relative;
+	user-select: none;
 	display: inline-block;
 	padding: 15px 30px;
+	margin: 0 15px;
 	color: #2196f3;
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	text-decoration: none;
 	font-size:24px;
 	transition: 0.2s;
 
 }
-#github a:hover{
+#buttons a:hover{
 	color: #255784;
 	background: #2196f3;
 	box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
 }
-#instagram{
+.copyright{
+	user-select: none;
 	text-align: center;
-	padding: 10px;
-
-}
-#instagram a{
-	position: relative;
-	display: inline-block;
-	padding: 15px 30px;
-	color: #2196f3;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	text-decoration: none;
-	font-size:24px;
-	transition: 0.2s;
-
-}
-#instagram a:hover{
-	color: #255784;
-	background: #2196f3;
-	box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
-}
-#twitter{
-	text-align: center;
-	padding: 10px;
-
-}
-#twitter a{
-	position: relative;
-	display: inline-block;
-	padding: 15px 30px;
-	color: #2196f3;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-decoration: none;
-	font-size:24px;
-	transition: 0.2s;
-
-}
-#twitter a:hover{
-	color: #255784;
-	background: #2196f3;
-	box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 40px #2196f3;
+	font-size: 15px;
+	color:#a6a6a6;
 }
