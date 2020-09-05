@@ -33,7 +33,7 @@ body{
 .memories a:hover{
 	color: #255784;
 	background: #2196f3;
-	transition-delay: 0.4s;
+	transition-delay: 0.2s;
 }
 .container{
 	margin: 70px auto 0;
