@@ -76,6 +76,13 @@ body{
 				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px;
 	grid-gap: 20px;
 }
@@ -131,6 +138,18 @@ body{
 .container .box.a97,
 .container .box.a99,
 .container .box.a100,
+.container .box.a102,
+.container .box.a103,
+.container .box.a104,
+.container .box.a105,
+.container .box.a106,
+.container .box.a107,
+.container .box.a108,
+.container .box.a109,
+.container .box.a110,
+.container .box.a111,
+.container .box.a112,
+.container .box.a117,
 .container .box.a20,
 .container .box.a21,
 .container .box.a22
@@ -142,6 +161,18 @@ body{
 	.container
 	{
 		grid-template: "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
+					   "1fr 1fr 1fr" 400px 
 					   "1fr 1fr 1fr" 400px 
 					   "1fr 1fr 1fr" 400px 
 					   "1fr 1fr 1fr" 400px 
@@ -260,6 +291,20 @@ body{
 					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px;
 		grid-gap: 5px;
 	}
@@ -268,8 +313,8 @@ body{
 		padding: 5px 10px;
 	}
 	.gallery{
-		width: 170px;
-		height: 170px;
+		width: 180px;
+		height: 180px;
 	}
 }
 .copyright{
