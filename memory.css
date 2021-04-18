@@ -84,6 +84,7 @@ body{
 				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px 
+				   "1fr 1fr 1fr 1fr " 400px 
 				   "1fr 1fr 1fr 1fr " 400px;
 	grid-gap: 20px;
 }
@@ -227,6 +228,7 @@ body{
 	.container
 	{
 		grid-template: "1fr 1fr " 200px 
+					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px 
 					   "1fr 1fr " 200px 
